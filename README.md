@@ -32,8 +32,12 @@ Then visit `http://localhost:8000`.
 
 ## GitHub Pages
 
-1. Create a GitHub repository and push these files.
+This repo includes a GitHub Pages workflow in `.github/workflows/pages.yml`.
+
+1. Push the repo to GitHub.
 2. In GitHub, open `Settings > Pages`.
-3. Set the source to `Deploy from a branch`.
-4. Select your main branch and the `/ (root)` folder.
-5. Save. GitHub Pages will publish `index.html` automatically.
+3. Under `Build and deployment`, set `Source` to `GitHub Actions`.
+4. Wait for the `Deploy GitHub Pages` workflow on `main` to finish.
+5. Your project site will be available at `https://skcy2001.github.io/website/`.
+
+If GitHub Actions is disabled for the repository, enable it first in `Settings > Actions`.
