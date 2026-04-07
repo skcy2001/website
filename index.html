@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Academic Website</title>
+    <meta
+      name="description"
+      content="Personal academic website with research, publications, CV, and contact information."
+    />
+    <link rel="stylesheet" href="styles.css?v=12" />
+  </head>
+  <body>
+    <div class="page-shell">
+      <header class="site-header">
+        <div class="header-topline">
+          <img
+            class="header-logo"
+            id="header-logo"
+            src="data/images/ucla-placeholder.svg"
+            alt="UCLA logo"
+          />
+          <a class="brand" href="#top" id="brand-name">Your Name</a>
+        </div>
+        <nav class="site-nav" aria-label="Primary">
+          <a href="#about">About</a>
+          <a href="#publications">Publications</a>
+          <a href="#experience">Achievements</a>
+          <a href="#contact">Contact</a>
+        </nav>
+      </header>
+
+      <main id="top">
+        <section class="hero">
+          <div class="hero-copy">
+            <div class="hero-main">
+              <div class="hero-text">
+                <p class="eyebrow" id="hero-role">PhD Student</p>
+                <h1 id="hero-name">Your Name</h1>
+                <p class="hero-summary" id="hero-summary">
+                  Researcher working on a concise statement of your area, methods,
+                  and impact.
+                </p>
+                <p class="data-status" id="data-status" hidden></p>
+                <div class="hero-actions" id="hero-actions"></div>
+              </div>
+              <div class="hero-media">
+                <div class="hero-portrait-shell">
+                  <img
+                    class="hero-portrait"
+                    id="hero-portrait"
+                    src="data/images/profile-placeholder.svg"
+                    alt="Portrait"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="section two-column" id="about">
+          <div>
+            <p class="section-kicker">About</p>
+            <h2>Academic profile</h2>
+          </div>
+          <div class="rich-text" id="about-content"></div>
+        </section>
+
+        <section class="section" id="research" hidden>
+          <div class="section-heading">
+            <div>
+              <p class="section-kicker">Projects</p>
+              <h2>Selected projects</h2>
+            </div>
+          </div>
+          <div class="project-list" id="research-grid"></div>
+        </section>
+
+        <section class="section" id="publications">
+          <div class="section-heading">
+            <div>
+              <p class="section-kicker">Papers</p>
+              <h2>Selected publications</h2>
+            </div>
+          </div>
+          <div class="publication-list" id="publication-list"></div>
+        </section>
+
+        <section class="section two-column" id="experience">
+          <div>
+            <p class="section-kicker">Achievements</p>
+            <h2>Awards and recognitions</h2>
+          </div>
+          <div class="timeline" id="timeline"></div>
+        </section>
+
+        <section class="section contact-section" id="contact">
+          <div>
+            <p class="section-kicker">Contact</p>
+            <h2>Get in touch</h2>
+            <p id="contact-note">
+              Add your preferred contact details, lab affiliation, and office
+              location.
+            </p>
+          </div>
+          <div class="contact-card">
+            <dl id="contact-list"></dl>
+          </div>
+        </section>
+      </main>
+    </div>
+
+    <script type="module" src="js/main.js?v=13"></script>
+  </body>
+</html>

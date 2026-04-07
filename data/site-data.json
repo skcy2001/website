@@ -1,0 +1,166 @@
+{
+  "name": "Samyak Chakrabarty",
+  "role": "PhD Student, Electrical and Computer Engineering, UCLA",
+  "summary": "I am a 3rd Year PhD student under Prof. Sudhakar Pamarti, SP&CE Lab, UCLA, working on Memory design, Compute-in-Memory (CiM) and Hardware accelerators for Machine learning.",
+  "heroMedia": {
+    "portrait": {
+      "src": "data/images/headshot.jpeg",
+      "alt": "Portrait of Samyak Chakrabarty"
+    },
+    "logo": {
+      "lightSrc": "data/images/logo_UCLA_blue_boxed.svg",
+      "darkSrc": "data/images/logo_UCLA_white.svg",
+      "alt": "UCLA logo"
+    }
+  },
+  "about": [
+    "I am currently pursuing an MS/PhD in Electrical and Computer Engineering at UCLA under Prof. Sudhakar Pamarti. My current research focuses on compute-in-memory systems, memory design, mixed-signal hardware, and accelerator architectures for machine learning.",
+    "I received my undergraduate degree in Electronics and Electrical Communication Engineering from IIT Kharagpur, where I built a strong foundation in circuits, systems, signal processing, and VLSI. During my undergraduate years, I worked on diverse hardware-design problems, including charge-trap flash device modeling, oscillator and clocking circuits, and FPGA-based accelerator design, with research experiences at IIT Bombay and the University of British Columbia.",
+    "My broader interest lies in building efficient intelligent hardware by connecting innovations across devices, circuits, and architectures, and turning them into practical systems that deliver gains in density, speed, and energy efficiency."
+  ],
+  "actions": [
+    {
+      "label": "Google Scholar",
+      "href": "https://scholar.google.com/citations?user=0y-Dyq0AAAAJ&hl=en&oi=ao",
+      "kind": "primary"
+    },
+    {
+      "label": "LinkedIn",
+      "href": "https://www.linkedin.com/in/csamyak/",
+      "kind": "secondary"
+    },
+    {
+      "label": "GitHub",
+      "href": "https://github.com/skcy2001",
+      "kind": "secondary"
+    }
+  ],
+  "researchAreas": [
+    {
+      "title": "Attention Accelerator for ViT Using DRAM-CIM Architecture",
+      "description": "Master's thesis project at UCLA on DRAM-CIM acceleration for vision transformers.",
+      "tags": ["Dec 2024-Present", "Prof. Sudhakar Pamarti", "UCLA", "Master's Thesis"],
+      "bullets": [
+        "Proposed a DRAM-based bit-cell architecture that improves compute density, accuracy, and energy efficiency for ViT attention.",
+        "Designed circuit schematics and layouts, and ran Cadence Virtuoso simulations for power, area, and linearity across process corners.",
+        "Co-developed a system-level integration flow to evaluate accuracy, throughput, power, and hardware-software tradeoffs."
+      ]
+    },
+    {
+      "title": "CiM Hardware Accelerator for ResNet-18 in GF22FDSOI",
+      "description": "DARPA-sponsored compute-in-memory accelerator project in GlobalFoundries 22nm.",
+      "tags": ["Sep 2023-Present", "Prof. Sudhakar Pamarti", "UCLA", "DARPA Sponsored"],
+      "bullets": [
+        "Developed RTL architecture and digital plus mixed-signal verification for interfacing with an analog compute-in-memory macro.",
+        "Designed a compact memory layout achieving 18 Mb/mm2 weight density and proposed system-level optimizations for accuracy and throughput.",
+        "Automated the RTL-to-GDSII flow, integrated multiple IPs, and achieved timing closure at 1 GHz for successful silicon tapeout."
+      ]
+    },
+    {
+      "title": "A Light FPGA-based Accelerator for ANN Training",
+      "description": "Bachelor's thesis on low-energy FPGA acceleration for neural-network training.",
+      "tags": ["Aug 2022-Apr 2023", "Prof. Anindya Sundar Dhar", "IIT Kharagpur", "Bachelor's Thesis"],
+      "bullets": [
+        "Designed a low-energy hardware accelerator on FPGA in SystemVerilog and evaluated timing and power using Vivado.",
+        "Used SIMD, instruction pipelining, and parallelism to build a full training-oriented processor architecture.",
+        "Achieved about 60% area reduction and 2x speedup while maintaining 95.18% accuracy on MNIST."
+      ]
+    },
+    {
+      "title": "Intuitive Design and Analysis Method for MPROs",
+      "description": "Summer internship project on multipath ring oscillators and oscillator classification.",
+      "tags": ["May 2022-Aug 2022", "Prof. Sudip Shekhar", "University of British Columbia", "Summer Internship"],
+      "bullets": [
+        "Simulated multipath ring oscillators in Cadence Virtuoso and developed a classification method based on ring and wiring modes.",
+        "Performed time-domain, frequency-domain, phase-noise, and mismatch analyses in Cadence.",
+        "Validated the methodology using post-layout simulations and silicon measurements on a TSMC 65nm test chip."
+      ]
+    },
+    {
+      "title": "Vt-Degradation Effect of Charge Trap Flash and Impact on ANN Training",
+      "description": "Internship project on charge-trap flash modeling for analog neural-network training.",
+      "tags": ["May 2021-Dec 2021", "Prof. Udayan Ganguly", "IIT Bombay", "Internship"],
+      "bullets": [
+        "Developed a MATLAB model of charge-trap flash for resistive processing units based on experimental data under stochastic pulse trains.",
+        "Analyzed the impact of Vt degradation and other non-idealities on ANN training to determine suitable pulse width and height.",
+        "Built a SPICE model of the CTF transistor and its program/erase behavior using dependent sources and capacitors."
+      ]
+    }
+  ],
+  "publications": [
+    {
+      "title": "MXFormer: A Microscaling Floating Point Charge-Trap Transistor Compute-in-Memory Transformer Accelerator",
+      "venue": "GOMACTech / ASPLOS",
+      "year": "2026",
+      "authors": "G. Karfakis, S. Chakrabarty, V. Jacob, S. Qiao, S. Iyer, S. Pamarti, P. Gupta",
+      "tags": ["Transformer", "Compute-in-Memory", "MXFP4"],
+      "abstract": "MXFormer is a hybrid, weight-stationary transformer accelerator that uses ultra-dense charge-trap-transistor compute-in-memory arrays with MXFP4 microscaling floating point to keep hundreds of millions of parameters on chip. By combining analog CTT arrays for static-weight layers with digital units for attention and normalization, it improves compute density and energy efficiency while preserving near-digital accuracy without retraining.",
+      "links": [
+        {
+          "label": "arXiv",
+          "href": "https://arxiv.org/abs/2602.12480"
+        }
+      ]
+    },
+    {
+      "title": "Back-gate Mediated VTH Mismatch Reduction to Enable 6-bit Precision in FD-SOI Charge-Trap Transistor",
+      "venue": "GOMACTech",
+      "year": "2025",
+      "authors": "S. Qiao, S. Wang, J. Zhu, Z. Guo, M. Zeinali, V. Jacob, S. Chakrabarty, B. Vaisband, S. Iyer, S. Pamarti",
+      "tags": ["CTT", "Analog Compute-in-Memory", "FD-SOI", "Back-Gate Charge Trapping"],
+      "abstract": "This paper presents a method to reduce intrinsic VTH mismatch in charge-trap transistors by inducing charge trapping near the interface between the ultra-thin silicon channel and the buried oxide in FD-SOI technology, independent of conventional trapping in the high-k gate dielectric. The technique reduces VTH variation by more than 3x, enables 5-bit programmability in the subthreshold region for area-efficient analog compute-in-memory, and can be extended to mismatch reduction in circuits such as sense amplifiers and SRAMs.",
+      "links": []
+    }
+  ],
+  "googleScholar": "https://scholar.google.com/citations?user=0y-Dyq0AAAAJ&hl=en&oi=ao",
+  "timeline": [
+    {
+      "year": "Nov 2025",
+      "title": "Best Poster, IBM AI Symposium",
+      "description": "Received Best Poster among 150+ student posters."
+    },
+    {
+      "year": "Sep 2023",
+      "title": "Department Fellowship, UCLA ECE",
+      "description": "Recipient of the department fellowship among 300+ students in ECE at UCLA."
+    },
+    {
+      "year": "Jul 2023",
+      "title": "Best B.Tech Project Work, IIT Kharagpur",
+      "description": "Recognized among 200+ students in ECE for best undergraduate project work."
+    },
+    {
+      "year": "May 2022",
+      "title": "DAAD WISE and MITACS Fellowships",
+      "description": "Received funded international research fellowships, including DAAD WISE and MITACS."
+    }
+  ],
+  "cv": {
+    "href": "assets/CV_digital(3).pdf",
+    "summary": "Download my latest CV for a full list of projects, publications, awards, coursework, and technical experience."
+  },
+  "contact": {
+    "note": "For research collaborations, academic inquiries, or internship opportunities, email is the best way to reach me.",
+    "entries": [
+      {
+        "label": "Email",
+        "value": "csamyak@ucla.edu",
+        "href": "mailto:csamyak@ucla.edu"
+      },
+      {
+        "label": "Location",
+        "value": "Electrical and Computer Engineering Department, UCLA, Los Angeles, CA 90095"
+      },
+      {
+        "label": "Phone",
+        "value": "+1 (949) 447-0327",
+        "href": "tel:+19494470327"
+      },
+      {
+        "label": "LinkedIn",
+        "value": "linkedin.com/in/csamyak",
+        "href": "https://www.linkedin.com/in/csamyak/"
+      }
+    ]
+  }
+}
