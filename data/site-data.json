@@ -20,9 +20,14 @@
   ],
   "actions": [
     {
+      "label": "Download CV",
+      "href": "assets/CV_digital(4).pdf",
+      "kind": "primary"
+    },
+    {
       "label": "Google Scholar",
       "href": "https://scholar.google.com/citations?user=0y-Dyq0AAAAJ&hl=en&oi=ao",
-      "kind": "primary"
+      "kind": "secondary"
     },
     {
       "label": "LinkedIn",
@@ -37,11 +42,16 @@
   ],
   "researchAreas": [
     {
-      "title": "Attention Accelerator for ViT Using DRAM-CIM Architecture",
-      "description": "Master's thesis project at UCLA on DRAM-CIM acceleration for vision transformers.",
-      "tags": ["Dec 2024-Present", "Prof. Sudhakar Pamarti", "UCLA", "Master's Thesis"],
+      "title": "NVM-Based Rewritable CiM Using Per-Cell CTT DAC",
+      "description": "Master's thesis at UCLA on a rewritable non-volatile compute-in-memory macro using a per-cell charge-trap-transistor DAC.",
+      "tags": [
+        "Oct 2025-Feb 2026",
+        "Prof. Sudhakar Pamarti",
+        "UCLA",
+        "Master's Thesis"
+      ],
       "bullets": [
-        "Proposed a DRAM-based bit-cell architecture that improves compute density, accuracy, and energy efficiency for ViT attention.",
+        "Proposed a novel DRAM-based bit-cell architecture that improves compute density, accuracy, and energy efficiency.",
         "Designed circuit schematics and layouts, and ran Cadence Virtuoso simulations for power, area, and linearity across process corners.",
         "Co-developed a system-level integration flow to evaluate accuracy, throughput, power, and hardware-software tradeoffs."
       ]
@@ -49,7 +59,12 @@
     {
       "title": "CiM Hardware Accelerator for ResNet-18 in GF22FDSOI",
       "description": "DARPA-sponsored compute-in-memory accelerator project in GlobalFoundries 22nm.",
-      "tags": ["Sep 2023-Present", "Prof. Sudhakar Pamarti", "UCLA", "DARPA Sponsored"],
+      "tags": [
+        "Sep 2023-Present",
+        "Prof. Sudhakar Pamarti",
+        "UCLA",
+        "DARPA Sponsored"
+      ],
       "bullets": [
         "Developed RTL architecture and digital plus mixed-signal verification for interfacing with an analog compute-in-memory macro.",
         "Designed a compact memory layout achieving 18 Mb/mm2 weight density and proposed system-level optimizations for accuracy and throughput.",
@@ -59,7 +74,12 @@
     {
       "title": "A Light FPGA-based Accelerator for ANN Training",
       "description": "Bachelor's thesis on low-energy FPGA acceleration for neural-network training.",
-      "tags": ["Aug 2022-Apr 2023", "Prof. Anindya Sundar Dhar", "IIT Kharagpur", "Bachelor's Thesis"],
+      "tags": [
+        "Aug 2022-Apr 2023",
+        "Prof. Anindya Sundar Dhar",
+        "IIT Kharagpur",
+        "Bachelor's Thesis"
+      ],
       "bullets": [
         "Designed a low-energy hardware accelerator on FPGA in SystemVerilog and evaluated timing and power using Vivado.",
         "Used SIMD, instruction pipelining, and parallelism to build a full training-oriented processor architecture.",
@@ -69,7 +89,12 @@
     {
       "title": "Intuitive Design and Analysis Method for MPROs",
       "description": "Summer internship project on multipath ring oscillators and oscillator classification.",
-      "tags": ["May 2022-Aug 2022", "Prof. Sudip Shekhar", "University of British Columbia", "Summer Internship"],
+      "tags": [
+        "May 2022-Aug 2022",
+        "Prof. Sudip Shekhar",
+        "University of British Columbia",
+        "Summer Internship"
+      ],
       "bullets": [
         "Simulated multipath ring oscillators in Cadence Virtuoso and developed a classification method based on ring and wiring modes.",
         "Performed time-domain, frequency-domain, phase-noise, and mismatch analyses in Cadence.",
@@ -79,7 +104,12 @@
     {
       "title": "Vt-Degradation Effect of Charge Trap Flash and Impact on ANN Training",
       "description": "Internship project on charge-trap flash modeling for analog neural-network training.",
-      "tags": ["May 2021-Dec 2021", "Prof. Udayan Ganguly", "IIT Bombay", "Internship"],
+      "tags": [
+        "May 2021-Dec 2021",
+        "Prof. Udayan Ganguly",
+        "IIT Bombay",
+        "Internship"
+      ],
       "bullets": [
         "Developed a MATLAB model of charge-trap flash for resistive processing units based on experimental data under stochastic pulse trains.",
         "Analyzed the impact of Vt degradation and other non-idealities on ANN training to determine suitable pulse width and height.",
@@ -93,7 +123,11 @@
       "venue": "GOMACTech / ASPLOS",
       "year": "2026",
       "authors": "G. Karfakis, S. Chakrabarty, V. Jacob, S. Qiao, S. Iyer, S. Pamarti, P. Gupta",
-      "tags": ["Transformer", "Compute-in-Memory", "MXFP4"],
+      "tags": [
+        "Transformer",
+        "Compute-in-Memory",
+        "MXFP4"
+      ],
       "abstract": "MXFormer is a hybrid, weight-stationary transformer accelerator that uses ultra-dense charge-trap-transistor compute-in-memory arrays with MXFP4 microscaling floating point to keep hundreds of millions of parameters on chip. By combining analog CTT arrays for static-weight layers with digital units for attention and normalization, it improves compute density and energy efficiency while preserving near-digital accuracy without retraining.",
       "links": [
         {
@@ -107,7 +141,12 @@
       "venue": "GOMACTech",
       "year": "2025",
       "authors": "S. Qiao, S. Wang, J. Zhu, Z. Guo, M. Zeinali, V. Jacob, S. Chakrabarty, B. Vaisband, S. Iyer, S. Pamarti",
-      "tags": ["CTT", "Analog Compute-in-Memory", "FD-SOI", "Back-Gate Charge Trapping"],
+      "tags": [
+        "CTT",
+        "Analog Compute-in-Memory",
+        "FD-SOI",
+        "Back-Gate Charge Trapping"
+      ],
       "abstract": "This paper presents a method to reduce intrinsic VTH mismatch in charge-trap transistors by inducing charge trapping near the interface between the ultra-thin silicon channel and the buried oxide in FD-SOI technology, independent of conventional trapping in the high-k gate dielectric. The technique reduces VTH variation by more than 3x, enables 5-bit programmability in the subthreshold region for area-efficient analog compute-in-memory, and can be extended to mismatch reduction in circuits such as sense amplifiers and SRAMs.",
       "links": []
     }
@@ -115,28 +154,38 @@
   "googleScholar": "https://scholar.google.com/citations?user=0y-Dyq0AAAAJ&hl=en&oi=ao",
   "timeline": [
     {
+      "year": "Jun 2026",
+      "title": "Qualcomm Innovation Fellowship, North America",
+      "description": "Selected for the Qualcomm Innovation Fellowship among 600+ participants across North America."
+    },
+    {
+      "year": "May 2026",
+      "title": "Best Masters Thesis (Gold), UCLA ECE",
+      "description": "Awarded Gold for the best master's thesis in the UCLA ECE graduating batch."
+    },
+    {
       "year": "Nov 2025",
       "title": "Best Poster, IBM AI Symposium",
       "description": "Received Best Poster among 150+ student posters."
     },
     {
       "year": "Sep 2023",
-      "title": "Department Fellowship, UCLA ECE",
-      "description": "Recipient of the department fellowship among 300+ students in ECE at UCLA."
-    },
-    {
-      "year": "Jul 2023",
       "title": "Best B.Tech Project Work, IIT Kharagpur",
       "description": "Recognized among 200+ students in ECE for best undergraduate project work."
     },
     {
-      "year": "May 2022",
+      "year": "Apr 2023",
+      "title": "Department Fellowship, UCLA ECE",
+      "description": "Recipient of the department fellowship among 300+ students in ECE at UCLA."
+    },
+    {
+      "year": "Mar 2022",
       "title": "DAAD WISE and MITACS Fellowships",
-      "description": "Received funded international research fellowships, including DAAD WISE and MITACS."
+      "description": "Received funded international research fellowships, including MITACS at the University of British Columbia and DAAD WISE."
     }
   ],
   "cv": {
-    "href": "assets/CV_digital(3).pdf",
+    "href": "assets/CV_digital(4).pdf",
     "summary": "Download my latest CV for a full list of projects, publications, awards, coursework, and technical experience."
   },
   "contact": {

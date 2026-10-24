@@ -1,5 +1,5 @@
-import { renderSite, showDataError } from "./render-site.js?v=13";
-import { loadSiteData } from "./site-data.js?v=13";
+import { renderSite, showDataError } from "./render-site.js?v=16";
+import { loadSiteData } from "./site-data.js?v=16";
 
 async function initializeSite() {
   try {
