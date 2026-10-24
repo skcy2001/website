@@ -139,7 +139,7 @@
     },
     {
       "title": "MXFormer: A Microscaling Floating Point Charge-Trap Transistor Compute-in-Memory Transformer Accelerator",
-      "venue": "GOMACTech / ASPLOS",
+      "venue": "MICRO (Under Review)",
       "year": "2026",
       "authors": "G. Karfakis, S. Chakrabarty, V. Jacob, S. Qiao, S. Iyer, S. Pamarti, P. Gupta",
       "tags": [
