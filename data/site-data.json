@@ -119,6 +119,25 @@
   ],
   "publications": [
     {
+      "title": "PERCEL: A Rewritable NVM CIM Incorporating a CTT-Based Per-Cell DAC",
+      "venue": "IEEE JxCDC",
+      "year": "2026",
+      "authors": "S. Chakrabarty, V. Jacob, M. Zeinali, G. Karfakis, S. Qiao, Z. Guo, P. Gupta, S. Iyer, S. Pamarti",
+      "tags": [
+        "Compute-in-Memory",
+        "Non-Volatile Memory",
+        "Per-Cell DAC",
+        "CTT"
+      ],
+      "abstract": "PERCEL is a rewritable non-volatile compute-in-memory macro in which each cell embeds a charge-trap-transistor-based DAC. The design targets higher compute density, accuracy, and energy efficiency, and was verified through circuit schematics and layout with Cadence Virtuoso simulations of power, area, and linearity across process corners, alongside a system-level integration flow evaluating accuracy, throughput, and hardware-software tradeoffs.",
+      "links": [
+        {
+          "label": "DOI",
+          "href": "https://doi.org/10.1109/JXCDC.2026.3680497"
+        }
+      ]
+    },
+    {
       "title": "MXFormer: A Microscaling Floating Point Charge-Trap Transistor Compute-in-Memory Transformer Accelerator",
       "venue": "GOMACTech / ASPLOS",
       "year": "2026",
@@ -137,6 +156,20 @@
       ]
     },
     {
+      "title": "An Energy and Area-Efficient 8b 300MS/s SAR ADC with Charge Trap Transistor-Based Calibrated DAC",
+      "venue": "JSSC (Submitted)",
+      "year": "2026",
+      "authors": "M. Zeinali, V. Jacob, S. Chakrabarty, S. Pamarti",
+      "tags": [
+        "SAR ADC",
+        "Charge-Trap Transistor",
+        "Calibrated DAC",
+        "Mixed-Signal"
+      ],
+      "abstract": "An 8-bit 300 MS/s successive-approximation ADC whose DAC is built from calibrated charge-trap transistors, targeting reduced energy and area compared with conventional capacitive DAC implementations.",
+      "links": []
+    },
+    {
       "title": "Back-gate Mediated VTH Mismatch Reduction to Enable 6-bit Precision in FD-SOI Charge-Trap Transistor",
       "venue": "GOMACTech",
       "year": "2025",
@@ -149,6 +182,25 @@
       ],
       "abstract": "This paper presents a method to reduce intrinsic VTH mismatch in charge-trap transistors by inducing charge trapping near the interface between the ultra-thin silicon channel and the buried oxide in FD-SOI technology, independent of conventional trapping in the high-k gate dielectric. The technique reduces VTH variation by more than 3x, enables 5-bit programmability in the subthreshold region for area-efficient analog compute-in-memory, and can be extended to mismatch reduction in circuits such as sense amplifiers and SRAMs.",
       "links": []
+    },
+    {
+      "title": "Non-ideal Program-Time Conservation in Charge Trap Flash for Deep Learning",
+      "venue": "Semicond. Sci. Technol.",
+      "year": "2023",
+      "authors": "S. Shrivastava, V. Saraswat, G. Dash, S. Chakrabarty, U. Ganguly",
+      "tags": [
+        "Charge-Trap Flash",
+        "Analog Synapse",
+        "Deep Learning",
+        "Device Modeling"
+      ],
+      "abstract": "A study of non-ideal program-time conservation in charge-trap flash devices and its consequences for using them as analog synapses in deep-learning training, grounded in measured device behaviour under pulsed programming.",
+      "links": [
+        {
+          "label": "Publisher",
+          "href": "https://iopscience.iop.org/article/10.1088/1361-6641/aceea6"
+        }
+      ]
     }
   ],
   "googleScholar": "https://scholar.google.com/citations?user=0y-Dyq0AAAAJ&hl=en&oi=ao",
